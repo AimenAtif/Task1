@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,pink,white);
+    padding: 10px;
+    
+}
+.To-do{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+ }
+.To-do h1{
+    color: #0a0f17;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight:800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ToDOList
+{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#inputField{
+    font-size:23px;
+    flex:1;
+    border:none;
+    outline:none;
+    background:transparent;
+    padding:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#AddToDoList{
+    border:none;
+    outline:none;
+    padding:16px 50px;
+    background: #f07cd7;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.to-dos{
+    margin-top: 35px;
+}
+
+.paragraph-styling
+{
+     margin:0;
+     cursor: pointer;
+     font-size:20px;
+}
+
+
